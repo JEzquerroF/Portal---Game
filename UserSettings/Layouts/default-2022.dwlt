@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 989
   m_ShowMode: 4
-  m_Title: Inspector
+  m_Title: Game
   m_RootView: {fileID: 6}
   m_MinSize: {x: 875, y: 321}
   m_MaxSize: {x: 10000, y: 10000}
@@ -48,7 +48,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 37
+  controlID: 117
 --- !u!114 &3
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -68,8 +68,8 @@ MonoBehaviour:
     y: 0
     width: 454
     height: 939
-  m_MinSize: {x: 275, y: 50}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 276, y: 71}
+  m_MaxSize: {x: 4001, y: 4021}
   m_ActualView: {fileID: 13}
   m_Panes:
   - {fileID: 13}
@@ -223,7 +223,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
   vertical: 1
-  controlID: 38
+  controlID: 26
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -248,7 +248,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 39
+  controlID: 27
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -268,8 +268,8 @@ MonoBehaviour:
     y: 0
     width: 1042
     height: 557
-  m_MinSize: {x: 200, y: 200}
-  m_MaxSize: {x: 4000, y: 4000}
+  m_MinSize: {x: 202, y: 221}
+  m_MaxSize: {x: 4002, y: 4021}
   m_ActualView: {fileID: 15}
   m_Panes:
   - {fileID: 15}
@@ -320,7 +320,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Scripts
+    - Assets/Scenes
     m_Globs: []
     m_OriginalText: 
     m_ImportLogFlags: 0
@@ -328,16 +328,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Scripts
+  - Assets/Scenes
   m_LastFoldersGridSize: -1
   m_LastProjectPath: "C:\\Users\\JavierEzquerro\\Desktop\\3r A\xF1o\\Portal - Game\\Portal---Game"
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 315}
-    m_SelectedIDs: a2060000
-    m_LastClickedID: 1698
-    m_ExpandedIDs: 000000000206000066060000ce070000f608000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 143}
+    m_SelectedIDs: b6060000
+    m_LastClickedID: 1718
+    m_ExpandedIDs: 000000000206000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -505,23 +505,23 @@ MonoBehaviour:
   m_SceneHierarchy:
     m_TreeViewState:
       scrollPos: {x: 0, y: 0}
-      m_SelectedIDs: 98ca0400
-      m_LastClickedID: 314008
-      m_ExpandedIDs: ac68fcffee68fcff5e74fcffa075fcff1a96fdff2096fdff2696fdff4c97fdff4e97fdff5097fdff5297fdff5497fdff5a97fdff5e97fdff6a97fdff7297fdff7497fdff7e97fdff8097fdff9297fdff9497fdff9897fdffa097fdffa497fdffa697fdffaa97fdffb097fdffb897fdffba97fdffbc97fdffbe97fdffc097fdffc497fdffc697fdffc897fdffd297fdffd497fdffd697fdffd897fdffde97fdffe297fdffe497fdffe897fdffea97fdffee97fdfff497fdfffa97fdff0098fdff0298fdff0a98fdff1498fdff1698fdff6298fdff6698fdff6a98fdff7c98fdff7e98fdff9098fdff9498fdff9698fdffa298fdffa498fdffa698fdffac98fdffba98fdffbc98fdffc698fdffca98fdffd098fdffdc98fdffe098fdffe498fdffea98fdffec98fdffee98fdfff098fdfffa98fdff0499fdff1499fdff1699fdff1899fdffde99fdff149afdff1a9afdff229afdff2a9afdff2e9afdff329afdff3a9afdff429afdff469afdff4a9afdff529afdff569afdff5a9afdff629afdff669afdff6e9afdff729afdff7a9afdff829afdff8a9afdff8e9afdff969afdff9e9afdffa29afdffa69afdffaa9afdffae9afdffee9afdfff49afdfffc9afdff049bfdff089bfdff0c9bfdff149bfdff1c9bfdff209bfdff249bfdff2c9bfdff309bfdff349bfdff3c9bfdff409bfdff489bfdff4c9bfdff549bfdff5c9bfdff649bfdff689bfdff709bfdff789bfdff7c9bfdff809bfdff849bfdff889bfdffc89bfdffce9bfdffd69bfdffde9bfdffe29bfdffe69bfdffee9bfdfff69bfdfffa9bfdfffe9bfdff069cfdff0a9cfdff0e9cfdff169cfdff1a9cfdff229cfdff269cfdff2e9cfdff369cfdff3e9cfdff429cfdff4a9cfdff529cfdff569cfdff5a9cfdff5e9cfdff629cfdffa29cfdffa89cfdffb09cfdffb89cfdffbc9cfdffc09cfdffc89cfdffd09cfdffd49cfdffd89cfdffe09cfdffe49cfdffe89cfdfff09cfdfff49cfdfffc9cfdff009dfdff089dfdff109dfdff189dfdff1c9dfdff249dfdff2c9dfdff309dfdff349dfdff389dfdff3c9dfdff549dfdff8a9dfdff989dfdffa09dfdffa49dfdffa89dfdffb09dfdffb89dfdffbc9dfdffc09dfdffc89dfdffcc9dfdffd09dfdffd89dfdffdc9dfdffe49dfdffe89dfdfff09dfdfff89dfdff009efdff049efdff0c9efdff149efdff189efdff1c9efdff209efdff249efdff649efdff6a9efdff729efdff7a9efdff7e9efdff829efdff8a9efdff929efdff969efdff9a9efdffa29efdffa69efdffaa9efdffb29efdffb69efdffbe9efdffc29efdffca9efdffd29efdffda9efdffde9efdffe69efdffee9efdfff29efdfff69efdfffa9efdfffe9efdff2a9ffdff3a9ffdff529ffdff6e9ffdffd69ffdffe09ffdfff49ffdfff89ffdff48a0fdff4ea0fdff56a0fdff5ea0fdff62a0fdff66a0fdff6ea0fdff76a0fdff7aa0fdff7ea0fdff86a0fdff8aa0fdff8ea0fdff96a0fdff9aa0fdffa2a0fdffa6a0fdffaea0fdffb6a0fdffbea0fdffc2a0fdffcaa0fdffd2a0fdffd6a0fdffdaa0fdffdea0fdffe2a0fdff04a1fdfff4a1fdff0ea2fdff3aacfdff72b6fdffa4befdff02e9fdffbcf3fdff7020feffe623fefffa34feffbe80feff9c83feffb691feff2a96feff3a96feff5497feff36abfeff04b3feff0abbfeffd8c2feffa6cafeffaed2feff3ad4feff0a2d0100d62d0100cc310100ac350100aa92010074950100f8970100f2b2010054b30100ccb80100f6c30100e6ff0100eaff01000800020020000200260002004a000200d2000200220102005201020056010200a8010200aa01020014020200340202005c02020088020200b60202000a0302000e0302001c030200f20302000004020010040200700402007e040200be040200c8040200f8040200100502001e05020046050200760502008e050200a6050200aa050200b205020014060200180602005606020086060200aa060200be060200c20602000c070200400702004e070200a4070200c4070200de070200ec070200f40702001008020020080200f00802000a090200280902002a0902003a0902003e09020046090200500902005a0902007c090200840902003c0a0200a60a0200ae0a0200c40a0200c60a0200c80a0200d60a0200e00a0200e20a0200fa0a0200040b0200060b02000e0b0200100b0200160b0200180b0200220b0200500b02005e0b0200640b02006c0b0200720b0200740b0200760b0200780b0200
+      m_SelectedIDs: fac60000
+      m_LastClickedID: 0
+      m_ExpandedIDs: 38d4feffeed4feff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
-        m_Name: Portal yellow
-        m_OriginalName: Portal yellow
+        m_Name: 
+        m_OriginalName: 
         m_EditFieldRect:
           serializedVersion: 2
           x: 0
           y: 0
           width: 0
           height: 0
-        m_UserData: -155388
+        m_UserData: 0
         m_IsWaitingForDelay: 0
         m_IsRenaming: 0
-        m_OriginalEventType: 0
+        m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_ClientGUIView: {fileID: 4}
       m_SearchString: 
