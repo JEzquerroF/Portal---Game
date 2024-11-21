@@ -7,8 +7,8 @@ public class PortalWeaponController : MonoBehaviour, IRestartGame
     [SerializeField] private Camera m_Camera;
     [SerializeField] private GameObject m_BluePreviewPortal;
     [SerializeField] private GameObject m_OrangePreviewPortal;
-    [SerializeField] private GameObject m_BluePortal;
-    [SerializeField] private GameObject m_OrangePortal;
+    [SerializeField] private GameObject m_BluePortalGO;
+    [SerializeField] private GameObject m_OrangePortalGO;
     [SerializeField] private float m_AngleValidPortal;
     [SerializeField] private float m_ScrollWheelIncrement;
     public List<Transform> m_ValidPoints = new List<Transform>();
@@ -18,6 +18,8 @@ public class PortalWeaponController : MonoBehaviour, IRestartGame
     private float m_Angle;
     private float m_CurrentPortalSize;
     private float m_PreviewAnimation;
+    public Portal m_BluePortal; 
+    public Portal m_OrangePortal;
 
     [Header("Weapon")]
     [SerializeField] private PortalBullet m_BulletPortalBlue;
@@ -211,7 +213,7 @@ public class PortalWeaponController : MonoBehaviour, IRestartGame
             m_BulletPortalOrange.m_Colisioned = false;
         }
 
-        if (m_ObjectAttract == null)
+        if (m_ObjectAttract == null || !m_ObjectAttract.gameObject.activeSelf)
         {
             m_TrapedObject = false;
             m_AttractingObjects = false;
@@ -291,28 +293,30 @@ public class PortalWeaponController : MonoBehaviour, IRestartGame
 
     private void ActivePortalBlue(RaycastHit l_hit)
     {
-        m_BluePortal.SetActive(true);
-        Portal l_portal = m_BluePortal.GetComponent<Portal>();
+        m_BluePortalGO.SetActive(true);
+        Portal l_portal = m_BluePortalGO.GetComponent<Portal>();
         l_portal.m_WallPortaled = l_hit.collider.GetComponent<Collider>();
         l_portal.transform.localScale = l_portal.m_StartSizeAnimation;
         l_portal.m_PortalSize = m_CurrentPortalSize;
         l_portal.m_PortalAnimation = true;
+        l_portal.m_Active = true;
         m_CrossHairBlue.SetActive(true);
-        m_BluePortal.transform.rotation = Quaternion.LookRotation(l_hit.normal);
-        m_BluePortal.transform.position = l_hit.point;
+        m_BluePortalGO.transform.rotation = Quaternion.LookRotation(l_hit.normal);
+        m_BluePortalGO.transform.position = l_hit.point;
     }
 
     private void ActivePortalOrange(RaycastHit l_hit)
     {
-        m_OrangePortal.SetActive(true);
-        Portal l_portal = m_OrangePortal.GetComponent<Portal>();
+        m_OrangePortalGO.SetActive(true);
+        Portal l_portal = m_OrangePortalGO.GetComponent<Portal>();
         l_portal.m_WallPortaled = l_hit.collider.GetComponent<Collider>();
         l_portal.transform.localScale = l_portal.m_StartSizeAnimation;
         l_portal.m_PortalSize = m_CurrentPortalSize;
         l_portal.m_PortalAnimation = true;
+        l_portal.m_Active = true;
         m_CrossHairOrange.SetActive(true);
-        m_OrangePortal.transform.rotation = Quaternion.LookRotation(l_hit.normal);
-        m_OrangePortal.transform.position = l_hit.point;
+        m_OrangePortalGO.transform.rotation = Quaternion.LookRotation(l_hit.normal);
+        m_OrangePortalGO.transform.position = l_hit.point;
     }
 
     public bool IsValidPosition()
@@ -372,16 +376,18 @@ public class PortalWeaponController : MonoBehaviour, IRestartGame
 
     public void NewSector()
     {
-        m_BluePortal.SetActive(false);
-        m_OrangePortal.SetActive(false);
+        m_BluePortalGO.SetActive(false);
+        m_BluePortal.m_Active = false;
+        m_OrangePortalGO.SetActive(false);
+        m_OrangePortal.m_Active = false;
         m_CrossHairBlue.SetActive(false);
         m_CrossHairOrange.SetActive(false);
     }
 
     public void RestartGame()
     {
-        m_BluePortal.SetActive(false);
-        m_OrangePortal.SetActive(false);
+        m_BluePortalGO.SetActive(false);
+        m_OrangePortalGO.SetActive(false);
         m_CrossHairBlue.SetActive(false);
         m_CrossHairOrange.SetActive(false);
     }

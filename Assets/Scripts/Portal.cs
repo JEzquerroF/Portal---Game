@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Portal : MonoBehaviour
+public class Portal : MonoBehaviour, IRestartGame
 {
     [SerializeField] private float m_OffsetCamera; 
     [SerializeField] private float m_SpeedAnimation;
@@ -16,7 +16,7 @@ public class Portal : MonoBehaviour
     private float m_AnimationProgress;
     public Vector3 m_StartSizeAnimation;
     private Vector3 m_StartSizePortal;
-
+    public bool m_Active; 
     public Collider m_WallPortaled;
 
     public LineRenderer m_LaserRenderer; 
@@ -35,12 +35,14 @@ public class Portal : MonoBehaviour
 
     private void Start()
     {
+        GameManager.instance.AddRestartGame(this);
         m_StartSizePortal = transform.localScale; 
         m_StartSizeAnimation = m_StartSizePortal / 100;
         m_PortalAnimation = false;
         m_AnimationProgress = 0f;
         m_LaserRenderer.gameObject.SetActive(false);
         m_WindowPortalController = GetComponentInChildren<WindowPortalController>();
+        m_Active = false;
     }
 
     private void Update()
@@ -172,6 +174,11 @@ public class Portal : MonoBehaviour
         {
             m_Gun.SetActive(false);  
         }
+    }
+
+    public void RestartGame()
+    {
+        m_Active = false; 
     }
 } 
 

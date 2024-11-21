@@ -1,0 +1,182 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\portalweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portalweaponcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|c:\\users\\javierezquerro\\desktop\\3r a\u00F1o\\portal - game\\portal---game\\assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\turret.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\teleportableobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\teleportableobjects.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\portal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\playerlifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerlifecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\destroysurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\destroysurface.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\player_controller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\soundtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\soundtrigger.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\checkpointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\checkpointcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\assets\\scripts\\windowmat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1BC36212-558F-B1FE-0060-9E89AE34A083}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\windowmat.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Turret.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Turret.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Turret.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Turret.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Turret.cs",
+              "ViewState": "AQIAAEIAAAAAAAAAAAAowF8AAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:54:34.787Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerLifeController.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\PlayerLifeController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerLifeController.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\PlayerLifeController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerLifeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAawCkAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:50:07.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "DestroySurface.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\DestroySurface.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\DestroySurface.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\DestroySurface.cs",
+              "RelativeToolTip": "Assets\\Scripts\\DestroySurface.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:49:12.094Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "SoundTrigger.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\SoundTrigger.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\SoundTrigger.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\SoundTrigger.cs",
+              "RelativeToolTip": "Assets\\Scripts\\SoundTrigger.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:30:35.332Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "CheckpointController.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\CheckpointController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\CheckpointController.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\CheckpointController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\CheckpointController.cs",
+              "ViewState": "AQIAACUAAAAAAAAAAAAcwBQAAAAtAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:25:53.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "TeleportableObjects.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\TeleportableObjects.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\TeleportableObjects.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\TeleportableObjects.cs",
+              "RelativeToolTip": "Assets\\Scripts\\TeleportableObjects.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwG8AAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:24:07.648Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Player_Controller.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Player_Controller.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Player_Controller.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Player_Controller.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Player_Controller.cs",
+              "ViewState": "AQIAAEMBAAAAAAAAAAAAALwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:23:06.286Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "WindowMat.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\WindowMat.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\WindowMat.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\WindowMat.cs",
+              "RelativeToolTip": "Assets\\Scripts\\WindowMat.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:18:53.848Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PortalWeaponController.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\PortalWeaponController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PortalWeaponController.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\PortalWeaponController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PortalWeaponController.cs",
+              "ViewState": "AQIAALsAAAAAAAAAAAAAANcAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:12:23.119Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Portal.cs",
+              "DocumentMoniker": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Portal.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Portal.cs",
+              "ToolTip": "C:\\Users\\JavierEzquerro\\Desktop\\3r A\u00F1o\\Portal - Game\\Portal---Game\\Assets\\Scripts\\Portal.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Portal.cs",
+              "ViewState": "AQIAAKEAAAAAAAAAAAAAALQAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-21T09:11:33.851Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

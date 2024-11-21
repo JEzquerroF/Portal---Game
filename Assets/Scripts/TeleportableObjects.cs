@@ -115,7 +115,9 @@ public class TeleportableObjects : MonoBehaviour, ITeleport
         {
             m_Portal = other.GetComponent<Portal>();
             m_EnterPortal = true;
-            Physics.IgnoreCollision(m_Portal.m_WallPortaled, m_BoxCollider, true);
+
+            if(m_Portal.m_MirrorPortal.m_Active)
+                Physics.IgnoreCollision(m_Portal.m_WallPortaled, m_BoxCollider, true);
         }
     }
 

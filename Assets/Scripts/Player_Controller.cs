@@ -187,8 +187,6 @@ public class Player_Controller : MonoBehaviour, ITeleport, IRestartGame
             l_MovementDirection.y = m_verticalSpeed * Time.deltaTime;
         }
 
-        Debug.Log(m_CharacterController.velocity.magnitude);
-
         CollisionFlags l_CollisionFlags = m_CharacterController.Move(l_MovementDirection);  
 
         if ((l_CollisionFlags & CollisionFlags.Below) != 0 && !m_GravityZone)
@@ -288,7 +286,10 @@ public class Player_Controller : MonoBehaviour, ITeleport, IRestartGame
         {
             m_EnterPortal = true;
             m_Portal = other.GetComponent<Portal>();
-            Physics.IgnoreCollision(m_CharacterController, m_Portal.m_WallPortaled, true);
+
+            if(m_Portal.m_MirrorPortal.m_Active)
+                Physics.IgnoreCollision(m_CharacterController, m_Portal.m_WallPortaled, true);
+
             m_PreviousOffsetFromPortal = m_Portal.transform.position - transform.position;
         }
 

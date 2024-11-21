@@ -10,7 +10,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{44183661-9CB0-2DA0-CD18-EA83EC5C8413}</ProjectGuid>
+    <ProjectGuid>{1BC36212-558F-B1FE-0060-9E89AE34A083}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -62,7 +62,6 @@
   <ItemGroup>
     <Compile Include="Assets\AssetStore\WarFX\Scripts\WFX_LightFlicker.cs" />
     <Compile Include="Assets\Scripts\Turret.cs" />
-    <Compile Include="Assets\PruebasMarc\Scripts\RefractionCube1.cs" />
     <Compile Include="Assets\Scripts\CompanionController.cs" />
     <Compile Include="Assets\Scripts\WindowPortalController.cs" />
     <Compile Include="Assets\Scripts\CubeButton.cs" />
@@ -81,7 +80,6 @@
     <Compile Include="Assets\AssetStore\PowerUp\Scripts\Utility\Singleton.cs" />
     <Compile Include="Assets\Scripts\CloneObjectController.cs" />
     <Compile Include="Assets\AssetStore\PowerUp\Scripts\TakeablePowerUp.cs" />
-    <Compile Include="Assets\PruebasMarc\Scripts\Turret1.cs" />
     <Compile Include="Assets\Scripts\MainMenu.cs" />
     <Compile Include="Assets\Scripts\DoorController.cs" />
     <Compile Include="Assets\AssetStore\WarFX\Scripts\CFX_LightIntensityFade.cs" />
@@ -94,6 +92,7 @@
     <Compile Include="Assets\Scripts\EnemyCameraRotation.cs" />
     <Compile Include="Assets\Scripts\CheckpointController.cs" />
     <Compile Include="Assets\AssetStore\PowerUp\Scripts\PowerUpManager.cs" />
+    <Compile Include="Assets\Scripts\WindowMat.cs" />
     <Compile Include="Assets\Scripts\SoundsManager.cs" />
     <Compile Include="Assets\Scripts\PortalBullet.cs" />
     <Compile Include="Assets\AssetStore\Water\Scripts\AQUAS_Lite_Camera.cs" />
@@ -101,7 +100,6 @@
     <Compile Include="Assets\Scripts\RefractionCube.cs" />
     <Compile Include="Assets\Scripts\FadeController.cs" />
     <Compile Include="Assets\Scripts\CompanionSpawner.cs" />
-    <Compile Include="Assets\PruebasMarc\Scripts\PortalWeaponController1.cs" />
     <Compile Include="Assets\Scripts\LaserEmitter.cs" />
     <Compile Include="Assets\Scripts\PortalWeaponController.cs" />
     <Compile Include="Assets\AssetStore\WarFX\Scripts\WFX_BulletHoleDecal.cs" />

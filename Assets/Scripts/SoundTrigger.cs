@@ -15,7 +15,7 @@ public class SoundTrigger : MonoBehaviour
             StartCoroutine(PlayDelayedSound());
 
             PortalWeaponController l_PortalWeaponController = other.GetComponent<PortalWeaponController>();
-            l_PortalWeaponController.NewSector();
+            l_PortalWeaponController.NewSector(); 
         }
     }
 

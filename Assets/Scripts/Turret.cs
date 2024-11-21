@@ -89,8 +89,8 @@ public class Turret : TeleportableObjects, IRestartGame
         m_IsDying = true;
 
         l_Turret.m_TurretExplosionParticles.Play();
-        SoundsManager.instance.PlaySoundClip(m_TurretDeathSound, transform, 0.2f);
-        SoundsManager.instance.PlaySoundClip(m_ExplosionSound, transform, 0.2f);
+        SoundsManager.instance.PlaySoundClip(m_TurretDeathSound, transform, 0.05f);
+        SoundsManager.instance.PlaySoundClip(m_ExplosionSound, transform, 0.05f);
         yield return new WaitForSeconds(0.2f);
 
         l_TurretObject.SetActive(false);
